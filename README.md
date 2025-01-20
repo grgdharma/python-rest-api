@@ -1,13 +1,13 @@
-# Overview
+## Overview
 Simple RESTful APIs using Python, Flask and Flask-SQLAlchemy.
 
-# Flask
+## Flask
 Flask is a micro web framework written in Python.
 
-# Flask-SQLAlchemy
+#3 Flask-SQLAlchemy
 Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to your application and work with the ORM [Object–relational mapping]
 
-# Steps
+## Follow the steps
 1. Open a Terminal
 2. Creating an application folder
 3. Setting up a Python virtual environment
@@ -25,30 +25,33 @@ Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to y
 9. Run the application
     http://127.0.0.1:5000
 
-# API Endpoints
-1. Displaying list of destinations
-   http://127.0.0.1:5000/destinations
+## API Endpoints
+1. Displaying list of destinations <br/>
+   http://127.0.0.1:5000/destinations<br/>
    Method: GET
    
 3. Add Destination
-   http://127.0.0.1:5000/destination
-   Method: POST
+   http://127.0.0.1:5000/destination<br/>
+   Method: POST<br/>
    Request Payload:
+   ```JSON
    {
         "destination": "Pokhara",
         "country": "Nepal",
         "rating": 4.5
     }
-   
+   ```
 5. Update Destination
-   http://127.0.0.1:5000/destination/<destination_id>
-   Method: PUT
+   http://127.0.0.1:5000/destination/<destination_id><br/>
+   Method: PUT<br/>
    Request Payload:
+   ```JSON
    {
         "destination": "Pokhara",
         "country": "Nepal",
         "rating": 4.5
     }
+   ```
 7. Delete Destination
-   http://127.0.0.1:5000/destination/4
+   http://127.0.0.1:5000/destination/4<br/>
    Method: DELETE
