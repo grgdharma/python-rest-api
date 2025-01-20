@@ -4,7 +4,7 @@ Simple RESTful APIs using Python, Flask and Flask-SQLAlchemy.
 ## Flask
 Flask is a micro web framework written in Python.
 
-#3 Flask-SQLAlchemy
+## 3 Flask-SQLAlchemy
 Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to your application and work with the ORM [Object–relational mapping]
 
 ## Follow the steps
@@ -22,7 +22,7 @@ Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to y
     pip3 freeze > requirments.txt
 8. Create a main file
     touch main.py
-9. Run the application
+9. Run the application <br/>
     http://127.0.0.1:5000
 
 ## API Endpoints
