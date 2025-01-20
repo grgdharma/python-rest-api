@@ -23,3 +23,32 @@ Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to y
 8. Create a main file
     touch main.py
 9. Run the application
+    http://127.0.0.1:5000
+
+# API Endpoints
+1. Displaying list of destinations
+   http://127.0.0.1:5000/destinations
+   Method: GET
+   
+3. Add Destination
+   http://127.0.0.1:5000/destination
+   Method: POST
+   Request Payload:
+   {
+        "destination": "Pokhara",
+        "country": "Nepal",
+        "rating": 4.5
+    }
+   
+5. Update Destination
+   http://127.0.0.1:5000/destination/<destination_id>
+   Method: PUT
+   Request Payload:
+   {
+        "destination": "Pokhara",
+        "country": "Nepal",
+        "rating": 4.5
+    }
+7. Delete Destination
+   http://127.0.0.1:5000/destination/4
+   Method: DELETE
