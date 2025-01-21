@@ -10,18 +10,18 @@ Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to y
 ## Follow the steps
 1. Open a Terminal
 2. Creating an application folder
-3. Setting up a Python virtual environment
-    python3 -m venv api-env
-4. Access the virtual environment
-    source api-env/bin/activate
-5. Install Flask
-    pip3 install flask
-6. Install Flask-SQLAlchemy
-    pip3 install flask-sqlalchemy
-7. Create an app requirement file
-    pip3 freeze > requirments.txt
-8. Create a main file
-    touch main.py
+3. Setting up a Python virtual environment<br/>
+    ### python3 -m venv api-env 
+4. Access the virtual environment<br/>
+    ### source api-env/bin/activate
+5. Install Flask<br/>
+    ### pip3 install flask
+6. Install Flask-SQLAlchemy<br/>
+    ### pip3 install flask-sqlalchemy
+7. Create an app requirement file<br/>
+    ### pip3 freeze > requirments.txt
+8. Create a main file<br/>
+    ### touch main.py
 9. Run the application <br/>
     http://127.0.0.1:5000
 
