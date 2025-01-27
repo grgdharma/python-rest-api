@@ -1,1 +1,2 @@
-api-env
+# Ignore the file named api-env
+/api-env
